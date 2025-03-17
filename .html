@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="/script.js"></script>
+
+<body>
+   <div class="Formulario">
+    <form class="Registro" onsumbit="return ValidacionFormulario()">
+        <div>
+        <label>Nombre</label>
+        <input class="inputRegistro" type="text" name="nombre" placeholder="nombre" id="Nombre" onkeyup="ValidacionFormulario()">
+        <p id="ErrorNom"></p>
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input class="inputRegistro" type="text" name="email" placeholder="email" id="Email" onkeyup="ValidacionFormulario()">
+            <p id="ErrorEma"></p>
+        </div>
+
+        <div>
+            <label>Contraseña</label>
+            <input class="inputRegistro" type="password" name="contraseña" placeholder="contraseña" id="Contraseña" onkeyup="ValidacionFormulario()">
+            <p id="ErrorContra"></p>
+        </div>
+
+        <div>
+            <label>Confirme contraseña</label>
+            <input class="inputRegistro" type="password" name="contraseña2" placeholder="contraseña" id="Contraseña2" onkeyup="ValidacionFormulario()">
+            <p id="ErrorContra2"></p>
+
+            <button class="boton" type="sumbit" id="Enviar">Enviar</button>
+        </div>
+
+    </form>
+   </div>
+    
+</body>
+</html>
