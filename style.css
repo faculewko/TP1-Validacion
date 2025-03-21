@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background:#ff8d21;
+    font-family: 'Times New Roman', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.Formulario {
+    background-color: rgb(223, 221, 221);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+
+.inputRegistro {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #f0eeee;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+
+.inputRegistro:focus {
+    border-color: #6e7dff;
+    box-shadow: 0 0 5px rgba(46, 62, 204, 0.6);
+}
+
+
+.boton {
+    padding: 12px;
+    background-color: #5b68e4;
+    margin-top: 5%;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.boton:hover {
+    background-color: #4c5ad0;
+}
+
+
+

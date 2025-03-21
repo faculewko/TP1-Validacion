@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" asp-append-version="true" />
     <title>Document</title>
 </head>
 <script src="/script.js"></script>
 
 <body>
    <div class="Formulario">
-    <form class="Registro" onsumbit="return ValidacionFormulario()">
+    <form class="Registro" onsumbit="ValidacionFormulario()">
         <div>
         <label>Nombre</label>
         <input class="inputRegistro" type="text" name="nombre" placeholder="nombre" id="Nombre" onkeyup="ValidacionFormulario()">
@@ -18,7 +19,7 @@
 
         <div>
             <label>Email</label>
-            <input class="inputRegistro" type="text" name="email" placeholder="email" id="Email" onkeyup="ValidacionFormulario()">
+            <input class="inputRegistro" type="email" name="email" placeholder="email" id="Email" onkeyup="ValidacionFormulario()">
             <p id="ErrorEma"></p>
         </div>
 
